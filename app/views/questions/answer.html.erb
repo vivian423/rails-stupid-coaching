@@ -1,0 +1,12 @@
+
+<div class="p-2 mb-2 bg-light text-dark w-50">
+  <p><%= params[:answer]%></p>
+  <p><em>-You</em></p>
+</div>
+
+<div class="p-2 mb-2 bg-light text-dark w-50">
+  <p><%= @coach_response%></p>
+  <p><em>-Your dear coach</em></p>
+</div>
+
+<%= link_to "Ask me another question", ask_path %>
